@@ -1,0 +1,2 @@
+* * * * * cd /aiai/project && psql -h rc1b-o3ezvcgz5072sgar.mdb.yandexcloud.net -p 6432 -d db -U hseguest -W hsepassword main.ddl
+* * * * * * cd /aiai/project && /usr/bin/python3 main.py >> cron.log 2>&1
